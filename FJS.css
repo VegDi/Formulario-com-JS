@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container > h1{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container {  
+    align-items: center;
+    margin-top: 180px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+button {
+    background-color: rgb(50, 175, 56);
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+.success-message {
+    background-color: rgb(50, 50, 197);
+    padding: 16px;
+    color: #FFFFFF;
+    display: none;
+}
+.error-message {
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    display: none;
+}
